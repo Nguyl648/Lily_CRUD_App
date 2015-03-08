@@ -1,0 +1,68 @@
+/* your style begins here */
+body {
+	background: url(/images/parsons-background-img.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h5 {
+	margin-bottom: 50px;
+	text-align: right;
+	color: #555;
+}
+
+footer {
+	position: fixed;
+	bottom: 20px;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+	text-align: center;
+}
+
+.page {
+	background: #fff;
+	opacity: 0.9;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Buttons */
+button {
+	background: #fff;
+	border: 1px solid #000;
+}
+button:hover {
+	background-color: #999;
+}
+
+button#btnLogout {
+	margin-left: 10px;
+}
+button#btnSubmit {
+	margin-top: 10px;
+}
+
+/* Input fields */
+input {
+	margin: 5px;
+}
+input#iptEmailRegister {
+	width: 250px;
+}
+
+input#iptNewProjectTitle {
+	margin: 5px;
+}
+input#iptNewProjectDeadline {
+	margin: 5px;
+}
+
+/* Projects List */
+li {
+	list-style-type: none;
+	margin: 15px;
+}
+
